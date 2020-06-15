@@ -88,8 +88,8 @@ class SignIn extends Component {
 				.then(resp => resp.json())
 				.then(data => {
 					this.props.loadusersequences(data)
-          this.props.fetchcategories(this.props.jwt)
-          /*
+          /*this.props.fetchcategories(this.props.jwt)
+          
 					fetch(`${URL}/api/v1/categories`,{headers: {Authorization: `Bearer ${this.props.jwt}`}})
 						.then(resp => resp.json())
 						.then(data => {
