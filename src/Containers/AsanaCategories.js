@@ -4,13 +4,23 @@ import AsanaCategory from '../Components/AsanaCategory'
 import { connect } from 'react-redux'
 import { Col } from 'reactstrap'
 import AsanaCard from '../Components/AsanaCard'
+import LoadCategoriesAction from '../actions/loadcategories'
 
 const mapStateToProps = state => {
   return {
     categories: state.categories.categories,
-	categorylabel: state.categorylabel,
-	sortasanas: state.sortasanas
+	  categorylabel: state.categorylabel,
+	  sortasanas: state.sortasanas,
+    jwt: state.jwt
   }
+}
+
+const mapDispatchToProps = dispatch => {
+  return {
+	   loadcategories: categories => {
+       dispatch(LoadCategoriesAction(categories))
+     }
+   }
 }
 
 
@@ -22,7 +32,19 @@ renderAsanaCard = card => {
 										  time={card.duration} /></Col>
 	}
 
+
+
+fetchCategories = () => {
+  const URL = process.env.REACT_APP_API_URL
+  fetch(`${URL}/api/v1/categories`,{headers: {Authorization: `Bearer ${this.props.jwt}`}})
+    .then(resp => resp.json())
+    .then(data => {
+      this.props.loadcategories(data)
+  })
+}
+
 renderCategories = () => {
+    this.fetchCategories()
 		const label = this.props.categorylabel
 		const categories = this.props.categories
 		if(label === ""){
@@ -70,4 +92,4 @@ renderCategories = () => {
 	}
 }
 
-export default connect(mapStateToProps,null)(AsanaCategories)
+export default connect(mapStateToProps,mapDispatchToProps)(AsanaCategories)
