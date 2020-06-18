@@ -27,6 +27,9 @@ const mapDispatchToProps = dispatch => {
 
 class AsanaCategories extends Component {
 
+componentDidMount(){
+  this.fetchCategories()
+}
 renderAsanaCard = card => {
 		return <Col xs="3" key={card.id}><AsanaCard title={card.sanskritname}
 			                              subtitle={card.englishname} image={card.picurl} asana_id={card.id}
@@ -45,7 +48,6 @@ fetchCategories = () => {
 }
 
 renderCategories = () => {
-    this.fetchCategories()
     if(this.props.requesting){
       return "...LOADING"
     }
