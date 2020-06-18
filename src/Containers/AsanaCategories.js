@@ -5,6 +5,7 @@ import { connect } from 'react-redux'
 import { Col } from 'reactstrap'
 import AsanaCard from '../Components/AsanaCard'
 import LoadCategoriesAction from '../actions/loadcategories'
+import FetchCategoriesAction from '../actions/fetchcategories'
 
 const mapStateToProps = state => {
   return {
@@ -20,6 +21,9 @@ const mapDispatchToProps = dispatch => {
   return {
 	   loadcategories: categories => {
        dispatch(LoadCategoriesAction(categories))
+     },
+     fetchcategories: () => {
+       dispatch(FetchCategoriesAction())
      }
    }
 }
@@ -28,7 +32,7 @@ const mapDispatchToProps = dispatch => {
 class AsanaCategories extends Component {
 
 componentDidMount(){
-  this.fetchCategories()
+  this.props.fetchcategories()
 }
 renderAsanaCard = card => {
 		return <Col xs="3" key={card.id}><AsanaCard title={card.sanskritname}
