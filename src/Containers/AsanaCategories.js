@@ -9,6 +9,7 @@ import LoadCategoriesAction from '../actions/loadcategories'
 const mapStateToProps = state => {
   return {
     categories: state.categories.categories,
+    requesting: state.categories.requesting,
 	  categorylabel: state.categorylabel,
 	  sortasanas: state.sortasanas,
     jwt: state.jwt
@@ -45,6 +46,9 @@ fetchCategories = () => {
 
 renderCategories = () => {
     this.fetchCategories()
+    if(this.props.requesting){
+      return "...LOADING"
+    }
 		const label = this.props.categorylabel
 		const categories = this.props.categories
 		if(label === ""){
