@@ -4,25 +4,57 @@ import AsanaCategory from '../Components/AsanaCategory'
 import { connect } from 'react-redux'
 import { Col } from 'reactstrap'
 import AsanaCard from '../Components/AsanaCard'
+import LoadCategoriesAction from '../actions/loadcategories'
+import FetchCategoriesAction from '../actions/fetchcategories'
 
 const mapStateToProps = state => {
   return {
     categories: state.categories.categories,
-	categorylabel: state.categorylabel,
-	sortasanas: state.sortasanas
+    requesting: state.categories.requesting,
+	  categorylabel: state.categorylabel,
+	  sortasanas: state.sortasanas,
+    jwt: state.jwt
   }
+}
+
+const mapDispatchToProps = dispatch => {
+  return {
+	   loadcategories: categories => {
+       dispatch(LoadCategoriesAction(categories))
+     },
+     fetchcategories: () => {
+       dispatch(FetchCategoriesAction())
+     }
+   }
 }
 
 
 class AsanaCategories extends Component {
 
+componentDidMount(){
+  this.props.fetchcategories()
+}
 renderAsanaCard = card => {
 		return <Col xs="3" key={card.id}><AsanaCard title={card.sanskritname}
 			                              subtitle={card.englishname} image={card.picurl} asana_id={card.id}
 										  time={card.duration} /></Col>
 	}
 
+
+
+fetchCategories = () => {
+  const URL = process.env.REACT_APP_API_URL
+  fetch(`${URL}/api/v1/categories`,{headers: {Authorization: `Bearer ${this.props.jwt}`}})
+    .then(resp => resp.json())
+    .then(data => {
+      this.props.loadcategories(data)
+  })
+}
+
 renderCategories = () => {
+    if(this.props.requesting){
+      return "...LOADING"
+    }
 		const label = this.props.categorylabel
 		const categories = this.props.categories
 		if(label === ""){
@@ -70,4 +102,4 @@ renderCategories = () => {
 	}
 }
 
-export default connect(mapStateToProps,null)(AsanaCategories)
+export default connect(mapStateToProps,mapDispatchToProps)(AsanaCategories)
