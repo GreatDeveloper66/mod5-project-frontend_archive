@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import { Container, Row } from 'reactstrap'
 import '../App.css';
 import LoadSequenceAction from '../actions/loadsequence'
+import LoadCategoriesAction from '../actions/loadcategories'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 
 const mapStateToProps = state => {
 	return {
-		categories: state.categories
+		categories: state.categories.categories,
+		jwt: state.jwt
 	}
 }
 
@@ -15,7 +17,10 @@ const mapDispatchToProps = dispatch => {
 	return {
 		loadsequence: sequence => {
 			dispatch(LoadSequenceAction(sequence))
-		}
+		},
+		loadcategories: categories => {
+			dispatch(LoadCategoriesAction(categories))
+		  }
 	}
 }
 
@@ -36,17 +41,22 @@ class YogaJumbotron extends Component {
 		})
 	}
 	
-	
-	
 	viewpreset = () => {
-		const asana_names = this.props.asanas;	
-		const asanarray = this.props.categories.map(category => category.asanas).flat()
-		const preset_asanas = asana_names.map(asana_name => {
+		const URL = process.env.REACT_APP_API_URL
+		fetch(`${URL}/api/v1/categories`,{headers: {Authorization: `Bearer ${this.props.jwt}`}})
+		  .then(resp => resp.json())
+		  .then(data => {
+			this.props.loadcategories(data)
+			const asana_names = this.props.asanas;	
+			const asanarray = this.props.categories.map(category => category.asanas).flat()
+			const preset_asanas = asana_names.map(asana_name => {
 								return asanarray.find(asana => asana.sanskritname === asana_name)
 								})
 		
-		this.props.loadsequence({id:null, name: this.props.name,asanas: preset_asanas}) 
-		this.props.history.push('/sequences/view')
+			this.props.loadsequence({id:null, name: this.props.name,asanas: preset_asanas}) 
+			this.props.history.push('/sequences/view')
+		})
+		
 	}
 	render(){
 		return(
