@@ -6,8 +6,8 @@ import UndoAsanaAction from '../actions/undoasanas'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 import LoadUserSequencesAction from '../actions/loadusersequences'
-
-const URL = process.env.REACT_APP_API_URL
+import fetch from 'isomorphic-fetch'
+import { URL } from '../Containers/EnvVars'
 
 const mapStateToProps = state => {
 	return {

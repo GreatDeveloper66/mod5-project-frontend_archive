@@ -6,6 +6,8 @@ import { Col } from 'reactstrap'
 import AsanaCard from '../Components/AsanaCard'
 import LoadCategoriesAction from '../actions/loadcategories'
 import FetchCategoriesAction from '../actions/fetchcategories'
+import fetch from 'isomorphic-fetch'
+import { URL } from './EnvVars'
 
 const mapStateToProps = state => {
   return {

@@ -5,6 +5,8 @@ import LoadSequenceAction from '../actions/loadsequence'
 import LoadCategoriesAction from '../actions/loadcategories'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
+import fetch from 'isomorphic-fetch'
+import { URL } from '../Containers/EnvVars'
 
 const mapStateToProps = state => {
 	return {

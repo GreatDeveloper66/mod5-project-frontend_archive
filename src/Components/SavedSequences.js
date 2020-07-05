@@ -6,6 +6,8 @@ import LoadSequenceAction from '../actions/loadsequence'
 import { connect } from 'react-redux'
 import Select from 'react-select'
 import DeleteSequenceAction from '../actions/deletesequence'
+import fetch from 'isomorphic-fetch'
+import { URL } from '../Containers/EnvVars'
 
 
 const mapStateToProps = state => {
@@ -63,7 +65,7 @@ class SavedSequences extends Component {
 			}
 		}
 		
-		fetch(`http://localhost:5000/api/v1/users/${this.props.profile.user.id}/sequences/${id}`,configObj)
+		fetch(`${URL}/api/v1/users/${this.props.profile.user.id}/sequences/${id}`,configObj)
 			.then(resp => resp.json())
 			.then(data => {
 				this.props.history.push('/profile')
