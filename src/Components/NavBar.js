@@ -32,6 +32,7 @@ class NavBar extends Component {
 					<ButtonGroup>
 						<Button color="primary" onClick={() => this.props.history.push('/home')}>Home</Button>		
 						<Button color="success" onClick={() => this.props.history.push('/profile')}>Profile</Button>
+						<Button color="success" onClick={() => this.props.history.push('/library')}>Library</Button>
 						<Button color="info" onClick={this.handleSignOut}>Sign Out</Button>
 					</ButtonGroup>
 				</Row>
