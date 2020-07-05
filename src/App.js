@@ -23,14 +23,18 @@ class App extends Component {
     <Router>
       <Switch>
         <Route exact path = '/' component = {SignIn} />
-          <Route exact path = '/profile' component={Profile} />
-		  <Route exact path ='/Register' component={Register} />
-          <Route exact path='/home' component={Home} />
-		  <Route exact path='/sequences/new' component={NewSequence} />
-		  <Route exact path='/sequences/edit' component={EditSequence} />
-		  <Route exact path='/sequences/view' component={ViewSequence} />
-		  <Route exact path='/sequences/presets' component={YogaWorkoutScreen} />
-        </Switch>
+        <Route exact path = '/profile' component={Profile} />
+		    <Route exact path ='/Register' component={Register} />
+        <Route exact path='/home' component={Home} />
+		    <Route exact path='/sequences/new' component={NewSequence} />
+		    <Route exact path='/sequences/edit' component={EditSequence} />
+		    <Route exact path='/sequences/view' component={ViewSequence} />
+		    <Route exact path='/sequences/presets' component={YogaWorkoutScreen} />
+        <Route exact path='/library' component={Library} />
+        <Route exact path='/sanskritdictionary' component={sanskritdictionary} />
+        <Route exact path='/asanadictionary' component={asanadictionary} />
+        <Route exact path='/anatomylibrary' component={anatomylibrary} />
+      </Switch>
     </Router>
 	
     )
