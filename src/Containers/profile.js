@@ -7,8 +7,8 @@ import UserName from '../Components/username'
 import LogOutUserAction from '../actions/logoutuser'
 import SavedSequences from '../Components/SavedSequences'
 import NavBar from '../Components/NavBar'
-
-const URL = process.env.REACT_APP_API_URL
+import fetch from 'isomorphic-fetch'
+import { URL } from './EnvVars'
 
 const mapStateToProps = state => {
   return {

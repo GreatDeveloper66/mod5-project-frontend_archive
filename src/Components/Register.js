@@ -6,8 +6,10 @@ import RegisterUserAction from '../actions/registeruser'
 import Email from './email'
 import UserName from './username'
 import ConfirmPassword from './ConfirmPassword'
-import fetch from 'isomorphic-fetch'
 import RenderProfileAction from '../actions/renderprofile'
+import fetch from 'isomorphic-fetch'
+import { URL } from '../Containers/EnvVars'
+
 
 
 const mapDispatchToProps = dispatch => {
@@ -55,7 +57,7 @@ class Register extends Component {
       },
       body: JSON.stringify(userObj)
     }
-    fetch(`http://localhost:5000/api/v1/users`,configObj)
+    fetch(`${URL}/api/v1/users`,configObj)
       .then(resp => resp.json())
       .then(data => {
           this.props.registerUser(data.jwt)
