@@ -9,8 +9,8 @@ import fetch from 'isomorphic-fetch'
 import UserName from './username'
 import Password from './password'
 import RenderProfileAction from '../actions/renderprofile'
-
-const URL = process.env.REACT_APP_API_URL
+import URL from '../Containers/EnvVars'
+console.log(URL)
 
 const mapStateToProps = state => {
   return {
