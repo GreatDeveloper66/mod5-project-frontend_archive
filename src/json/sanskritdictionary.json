@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "sanskrit name": "a",
+        "definition": "non"
+    },
+    {
+        "id": 2,
+        "sanskrit name": "abductor",
+        "definition": "Muscle that moves a part of the body away from the midline of the body"
+    },
+    {
+        "id": 3,
+        "sanskrit name": "abduction",
+        "definition": "motion that pulls a part of the body away from the midline of the body"
+    },
+    {
+        "id": 4,
+        "sanskrit name": "adductor",
+        "definition": "Muscle that moves a part of the body torwards the midline of the body"
+    }
+
+]
