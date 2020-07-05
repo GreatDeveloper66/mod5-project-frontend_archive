@@ -9,6 +9,10 @@ import NewSequence from './Containers/NewSequence'
 import EditSequence from './Containers/EditSequence'
 import ViewSequence from './Containers/ViewSequence'
 import YogaWorkoutScreen from './Containers/YogaWorkoutScreen'
+import Library from './Containers/Library'
+import SanskritDictionary from './Components/SanskritDictionary'
+import AsanaDictionary from './Components/AsanaDictionary'
+import AnatomyLibrary from './Components/AnatomyLibrary'
 
 
 class App extends Component {
@@ -31,9 +35,9 @@ class App extends Component {
 		    <Route exact path='/sequences/view' component={ViewSequence} />
 		    <Route exact path='/sequences/presets' component={YogaWorkoutScreen} />
         <Route exact path='/library' component={Library} />
-        <Route exact path='/sanskritdictionary' component={sanskritdictionary} />
-        <Route exact path='/asanadictionary' component={asanadictionary} />
-        <Route exact path='/anatomylibrary' component={anatomylibrary} />
+        <Route exact path='/sanskritdictionary' component={SanskritDictionary} />
+        <Route exact path='/asanadictionary' component={AsanaDictionary} />
+        <Route exact path='/anatomylibrary' component={AnatomyLibrary} />
       </Switch>
     </Router>
 	
