@@ -43,6 +43,12 @@
         "id": 9,
         "sanskrit name": "agni",
         "definition": "fire"
+    },
+    {
+        "id": 10,
+        "sanskrit name": "ahimsa",
+        "definition": "nonviolence"
+
     }
 
 ]
