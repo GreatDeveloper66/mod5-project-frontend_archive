@@ -18,6 +18,12 @@
         "id": 4,
         "sanskrit name": "adductor",
         "definition": "Muscle that moves a part of the body torwards the midline of the body"
+    },
+    {
+        "id": 5,
+        "sanskrit name": "adduction",
+        "definition": "motion that pull a part of the body torwards the midline of the body"
+
     }
 
 ]
