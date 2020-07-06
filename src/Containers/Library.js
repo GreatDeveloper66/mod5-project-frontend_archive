@@ -1,9 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
+import NavBar from '../Components/NavBar'
 import { Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, Button  } from 'reactstrap'
 
 class Library extends Component {
     render(){
         return(
+            <Fragment>
+            <NavBar />
             <Container>
                 <Row>
                     <Col>
@@ -16,7 +19,7 @@ class Library extends Component {
                                 <CardSubtitle>
                                     Dictionary of sanskrit terms
                                 </CardSubtitle>
-                                <Button onClick={() => this.props.history.push('/')}>
+                                <Button onClick={() => this.props.history.push('/sanskritdictionary')}>
                                     View Library
                                 </Button>
                             </CardBody>
@@ -56,6 +59,7 @@ class Library extends Component {
                     </Col>
                 </Row>
             </Container>
+            </Fragment>
            
         )
     }
