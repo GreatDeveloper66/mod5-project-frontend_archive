@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
+import NavBar from './NavBar'
+
 
 class AnatomyDictionary extends Component {
     render(){
-        return <div>Lib</div>
+
+        return <div><NavBar /></div>
     }
 }
 
