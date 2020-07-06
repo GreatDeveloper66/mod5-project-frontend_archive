@@ -3,6 +3,10 @@ import NavBar from '../Components/NavBar'
 import { Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, Button  } from 'reactstrap'
 
 class Library extends Component {
+    imgStyle = () => ({
+        width : "100%"
+    })
+
     render(){
         return(
             <Fragment>
@@ -11,7 +15,7 @@ class Library extends Component {
                 <Row>
                     <Col>
                         <Card>
-                            <CardImg src={require('../images/sanskrit_small.jpg')}/>
+                            <CardImg src={require('../images/sanskrit_small.jpg')} style={this.imgStyle()}/>
                             <CardBody>
                                 <CardTitle>
                                     Sanskrit
@@ -19,7 +23,7 @@ class Library extends Component {
                                 <CardSubtitle>
                                     Dictionary of sanskrit terms
                                 </CardSubtitle>
-                                <Button onClick={() => this.props.history.push('/sanskritdictionary')}>
+                                <Button onClick={() => this.props.history.push('/sanskritdictionary')} style={this.imgStyle()} >
                                     View Library
                                 </Button>
                             </CardBody>
@@ -27,7 +31,7 @@ class Library extends Component {
                     </Col>
                     <Col>
                     <Card>
-                            <CardImg src={require('../images/yogi_small.jpg')}/>
+                            <CardImg src={require('../images/yogi_small.jpg')} style={this.imgStyle()}/>
                             <CardBody>
                                 <CardTitle>
                                     Asanas
@@ -43,7 +47,7 @@ class Library extends Component {
                     </Col>
                     <Col>
                     <Card>
-                            <CardImg src={require('../images/anatomy_small.jpg')}/>
+                            <CardImg src={require('../images/anatomy_small.jpg')} style={this.imgStyle()}/>
                             <CardBody>
                                 <CardTitle>
                                     Anatomy
