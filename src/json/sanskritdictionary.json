@@ -33,6 +33,11 @@
         "id": 7,
         "sanskrit name": "adho",
         "definition": "downward"
+    }, 
+    {
+        "id": 8,
+        "sanskrit name": "mukha",
+        "definition": "facing"
     }
 
 ]
