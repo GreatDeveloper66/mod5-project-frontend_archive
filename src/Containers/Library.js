@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Card } from 'reactstrap'
+import { Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, Button  } from 'reactstrap'
 
 class Library extends Component {
     render(){
@@ -40,7 +40,7 @@ class Library extends Component {
                     </Col>
                     <Col>
                     <Card>
-                            <CardImg src={require('../images/asanas_small.jpg')}/>
+                            <CardImg src={require('../images/anatomy_small.jpg')}/>
                             <CardBody>
                                 <CardTitle>
                                     Anatomy
