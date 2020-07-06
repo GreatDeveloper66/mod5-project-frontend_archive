@@ -23,7 +23,16 @@
         "id": 5,
         "sanskrit name": "adduction",
         "definition": "motion that pull a part of the body torwards the midline of the body"
-
+    },
+    {
+        "id": 6,
+        "sanskrit name": "adduction",
+        "definition": "motion that pull a part of the body torwards the midline of the body"
+    },
+    {
+        "id": 7,
+        "sanskrit name": "adho",
+        "definition": "downward"
     }
 
 ]
