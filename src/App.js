@@ -37,7 +37,7 @@ class App extends Component {
         <Route exact path='/library' component={Library} />
         <Route exact path='/sanskritdictionary' component={SanskritDictionary} />
         <Route exact path='/asanadictionary' component={AsanaDictionary} />
-        <Route exact path='/anatomylibrary' component={AnatomyDictionary} />
+        <Route exact path='/anatomydictionary' component={AnatomyDictionary} />
       </Switch>
     </Router>
 	
