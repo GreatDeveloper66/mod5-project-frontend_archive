@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
+import NavBar from './NavBar'
 
 class SanskritDictionary extends Component {
     render(){
-        return <div>Lib</div>
+        return <div><NavBar /></div>
     }
 }
 

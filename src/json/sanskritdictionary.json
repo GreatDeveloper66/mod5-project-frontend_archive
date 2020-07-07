@@ -18,6 +18,37 @@
         "id": 4,
         "sanskrit name": "adductor",
         "definition": "Muscle that moves a part of the body torwards the midline of the body"
+    },
+    {
+        "id": 5,
+        "sanskrit name": "adduction",
+        "definition": "motion that pull a part of the body torwards the midline of the body"
+    },
+    {
+        "id": 6,
+        "sanskrit name": "adduction",
+        "definition": "motion that pull a part of the body torwards the midline of the body"
+    },
+    {
+        "id": 7,
+        "sanskrit name": "adho",
+        "definition": "downward"
+    }, 
+    {
+        "id": 8,
+        "sanskrit name": "mukha",
+        "definition": "facing"
+    },
+    {
+        "id": 9,
+        "sanskrit name": "agni",
+        "definition": "fire"
+    },
+    {
+        "id": 10,
+        "sanskrit name": "ahimsa",
+        "definition": "nonviolence"
+
     }
 
 ]

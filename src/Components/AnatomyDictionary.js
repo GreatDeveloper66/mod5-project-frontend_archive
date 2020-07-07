@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import NavBar from './NavBar'
 
-class AsanaDictionary extends Component {
+
+class AnatomyDictionary extends Component {
     render(){
+
         return <div><NavBar /></div>
     }
 }
 
-export default AsanaDictionary
+export default AnatomyDictionary
