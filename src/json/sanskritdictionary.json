@@ -120,7 +120,18 @@
         "id": 24,
         "sanskrit name": "Astavakra",
         "definition": "A revered Vedic sage in Hinduism. His name means 'eight bends' for the eight handicapas he was born with"
+    },
+    {
+        "id": 25,
+        "sanskrit name": "asana",
+        "definition": "yoga pose. literally a seat or to take one's seat"  
+    },
+    {
+        "id": 26,
+        "sanskrit name": "asteya",
+        "definition": "One of the five yamas meaning 'not stealing'"  
     }
+    
     
         
 
