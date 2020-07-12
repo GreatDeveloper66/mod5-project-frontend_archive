@@ -135,6 +135,16 @@
         "id": 27,
         "sanskrit name": "atman",
         "definition": "The true self or conciousness" 
+    },
+    {
+        "id" : 28,
+        "sanskrit name": "aum",
+        "definition": "The originating all encompassing sound of the universe. First seen in the Upanishads. Alternative spelling ohm"
+    },
+    {
+        "id": 30,
+        "sanskrit name": "avidya",
+        "definition": "A fundamental blindness of reality or ignorance of true self" 
     }
     
     
