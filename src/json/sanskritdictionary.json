@@ -142,19 +142,24 @@
         "definition": "The originating all encompassing sound of the universe. First seen in the Upanishads. Alternative spelling ohm"
     },
     {
-        "id": 30,
+        "id": 29,
         "sanskrit name": "avidya",
         "definition": "A fundamental blindness of reality or ignorance of true self" 
     },
     {
-        "id": 31,
+        "id": 30,
         "sanskrit name": "ayurveda",
         "definition": "traditional ancient indian medicine or 'science of life'" 
     },
     {
-        "id": 32,
+        "id": 31,
         "sanskrit name": "Baddha",
         "definition": "Bound" 
+    },
+    {
+        "id": 32,
+        "sanskrit name": "Bahya",
+        "definition": "External" 
     }
     
     
