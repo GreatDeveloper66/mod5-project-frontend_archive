@@ -208,5 +208,45 @@
     "id": 42,
     "sanskrit name": "Bhaya",
     "definition": "Fear"
+},
+{
+    "id": 43,
+    "sanskrit name": "Bheka",
+    "definition": "Frog"
+},
+{
+    "id": 44,
+    "sanskrit name": "Bhuja",
+    "definition": "Arm or Shoulder"
+},
+{
+    "id": 45,
+    "sanskrit name": "Bhujanga",
+    "definition": "Cobra"
+},
+{
+    "id": 46,
+    "sanskrit name": "Bhujapida",
+    "definition": "Pressure on the arm or shoulder"
+},
+{
+    "id": 47,
+    "sanskrit name": "Brahama",
+    "definition": "God. Supreme being. First diety of the Hindu trinity"
+},
+{
+    "id": 48,
+    "sanskrit name": "brahmacharya",
+    "definition": "Celibacy. One of the yamas"
+},
+{
+    "id": 49,
+    "sanskrit name": "Brahman",
+    "description": "infinite conciousness"
+},
+{
+    "id": 50,
+    "sanskrit name": "Buddhi",
+    "definition": "intelligence. seat of intelligence"
 }
 ]
