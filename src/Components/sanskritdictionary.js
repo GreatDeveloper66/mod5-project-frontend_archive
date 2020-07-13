@@ -6,7 +6,7 @@ import { ListGroup, ListGroupItem } from 'reactstrap'
 class SanskritDictionary extends Component {
 
     renderDefinitions = () => <ListGroup>
-                                {sanskritdefinitions.map((def,index) => <ListGroupItem key={index}>
+                                {sanskritdefinitions.map((def,index) => <ListGroupItem color="success" key={index}>
                                                         {`${def['sanskrit name']} | ${def['definition']}`}
                                                     </ListGroupItem>)}
                                 </ListGroup>
