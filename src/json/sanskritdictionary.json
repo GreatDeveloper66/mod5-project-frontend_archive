@@ -303,5 +303,20 @@
     "id": 60,
     "sanskrit name": "dukha",
     "definition": "pain, sorrow or grief"
+},
+{
+    "id": 61,
+    "sanskrit name": "dwi",
+    "definition": "two"
+},
+{
+    "id": 61,
+    "sanskrit name": "eka",
+    "definition": "one"
+},
+{
+    "id": 62,
+    "sanskrit name": "ekagrata",
+    "definition": "one point mental focus"
 }
 ]
