@@ -1,54 +1,307 @@
-[
-    {
-        "id": 1,
-        "sanskrit name": "a",
-        "definition": "non"
-    },
-    {
-        "id": 2,
-        "sanskrit name": "abductor",
-        "definition": "Muscle that moves a part of the body away from the midline of the body"
-    },
-    {
-        "id": 3,
-        "sanskrit name": "abduction",
-        "definition": "motion that pulls a part of the body away from the midline of the body"
-    },
-    {
-        "id": 4,
-        "sanskrit name": "adductor",
-        "definition": "Muscle that moves a part of the body torwards the midline of the body"
-    },
-    {
-        "id": 5,
-        "sanskrit name": "adduction",
-        "definition": "motion that pull a part of the body torwards the midline of the body"
-    },
-    {
-        "id": 6,
-        "sanskrit name": "adduction",
-        "definition": "motion that pull a part of the body torwards the midline of the body"
-    },
-    {
-        "id": 7,
-        "sanskrit name": "adho",
-        "definition": "downward"
-    }, 
-    {
-        "id": 8,
-        "sanskrit name": "mukha",
-        "definition": "facing"
-    },
-    {
-        "id": 9,
-        "sanskrit name": "agni",
-        "definition": "fire"
-    },
-    {
-        "id": 10,
-        "sanskrit name": "ahimsa",
-        "definition": "nonviolence"
+[{
+    "id": 1,
+    "sanskrit name": "a",
+    "definition": "non"
+},
+{
+    "id": 2,
+    "sanskrit name": "abductor",
+    "definition": "Muscle that moves a part of the body away from the midline of the body"
+},
+{
+    "id": 3,
+    "sanskrit name": "abduction",
+    "definition": "motion that pulls a part of the body away from the midline of the body"
+},
+{
+    "id": 4,
+    "sanskrit name": "adductor",
+    "definition": "Muscle that moves a part of the body torwards the midline of the body"
+},
+{
+    "id": 5,
+    "sanskrit name": "adduction",
+    "definition": "motion that pull a part of the body torwards the midline of the body"
+},
+{
+    "id": 6,
+    "sanskrit name": "adduction",
+    "definition": "motion that pull a part of the body torwards the midline of the body"
+},
+{
+    "id": 7,
+    "sanskrit name": "adho",
+    "definition": "downward"
+},
+{
+    "id": 8,
+    "sanskrit name": "mukha",
+    "definition": "facing"
+},
+{
+    "id": 9,
+    "sanskrit name": "agni",
+    "definition": "fire"
+},
+{
+    "id": 10,
+    "sanskrit name": "ahimsa",
+    "definition": "nonviolence"
 
-    }
+},
+{
+    "id": 11,
+    "sanskrit name": "ajna chakra",
+    "definition": "Third-eye charkra"
+},
+{
+    "id": 12,
+    "sanskrit name": "ananda",
+    "definition": "Ecstasy;bliss;love"
+},
 
+{
+    "id": 13,
+    "sanskrit name": "anjali mudra",
+    "definition": "The gesture of anjali, plams together at the heart"
+},
+{
+    "id": 14,
+    "sanskrit name": "Anjaneya",
+    "definition": "monkey god"
+},
+{
+    "id": 15,
+    "sanskrit name": "antara",
+    "definition": "internal"
+},
+{
+    "id": 16,
+    "sanskrit name": "antara kumbhaka",
+    "definition": "Holding the breath after inhalation"
+},
+{
+    "id": 17,
+    "sanskrit name": "anterior",
+    "definition": "Part of body Forward or in front"
+},
+{
+    "id": 18,
+    "sanskrit name": "anuloma",
+    "definition": "moving or breathing 'with the grain'"
+}, {
+    "id": 19,
+    "sanskrit name": "apana",
+    "definition": "lower or downward"
+},
+{
+    "id": 20,
+    "sanskrit name": "Apanasana",
+    "definition": "Refers to Pelvic floor asanas generally and wind releiving asana specifically"
+},
+{
+    "id": 21,
+    "sanskrit name": "aparigraha",
+    "definition": "Noncovertousness"
+},
+{
+    "id": 22,
+    "sanskrit name": "ardha",
+    "definition": "Half"
+},
+{
+    "id": 23,
+    "sanskrit name": "asana",
+    "definition": "yoga pose. literally a seat or to take one's seat"
+},
+{
+    "id": 24,
+    "sanskrit name": "Astavakra",
+    "definition": "A revered Vedic sage in Hinduism. His name means 'eight bends' for the eight handicapas he was born with"
+},
+{
+    "id": 25,
+    "sanskrit name": "asana",
+    "definition": "yoga pose. literally a seat or to take one's seat"
+},
+{
+    "id": 26,
+    "sanskrit name": "asteya",
+    "definition": "One of the five yamas meaning 'not stealing'"
+},
+{
+    "id": 27,
+    "sanskrit name": "atman",
+    "definition": "The true self or conciousness"
+},
+{
+    "id": 28,
+    "sanskrit name": "aum",
+    "definition": "The originating all encompassing sound of the universe. First seen in the Upanishads. Alternative spelling ohm"
+},
+{
+    "id": 29,
+    "sanskrit name": "avidya",
+    "definition": "A fundamental blindness of reality or ignorance of true self"
+},
+{
+    "id": 30,
+    "sanskrit name": "ayurveda",
+    "definition": "traditional ancient indian medicine or 'science of life'"
+},
+{
+    "id": 31,
+    "sanskrit name": "Baddha",
+    "definition": "Bound"
+},
+{
+    "id": 32,
+    "sanskrit name": "Bahya",
+    "definition": "External"
+},
+{
+    "id": 33,
+    "sanskrit name": "bahya kumbhaka",
+    "definition": "Suspension of breath after complete exhalation"
+},
+{
+    "id": 34,
+    "sanskrit name": "baka",
+    "definition": "crane"
+},
+{
+    "id": 35,
+    "sanskrit name": "bandha",
+    "definition": "to bind or energetic engagement"
+},
+{
+    "id": 36,
+    "sanskrit name": "bhadra",
+    "definition": "peaceful or auspicious"
+},
+{
+    "id": 37,
+    "sanskrit name": "Bhagavad Gita",
+    "definition": "'Songs of the Lord' a chapter in the epic Mahabharata and the most influential of all writings on yoga and spiritual philosophy"
+},
+{
+    "id": 38,
+    "sanskrit name": "bhakti",
+    "definition": "the practice of devotion"
+},
+{
+    "id": 39,
+    "sanskrit name": "Bharadvaj",
+    "definition": "An Indian Sage"
+},
+{
+    "id": 40,
+    "sanskrit name": "Bharirava",
+    "definition": "Is a Hindu Tantric deity worshiped by Hindus. In Shaivism, he is a fierce manifestation of Shiva associated with annihilation."
+},
+{
+    "id": 41,
+    "sanskrit name": "Bhastrika",
+    "definition": "Bellows used in a furnace, type of pranayama where air is forcibly drawn in and out through the nostrils" 
+},
+{
+    "id": 42,
+    "sanskrit name": "Bhaya",
+    "definition": "Fear"
+},
+{
+    "id": 43,
+    "sanskrit name": "Bheka",
+    "definition": "Frog"
+},
+{
+    "id": 44,
+    "sanskrit name": "Bhuja",
+    "definition": "Arm or Shoulder"
+},
+{
+    "id": 45,
+    "sanskrit name": "Bhujanga",
+    "definition": "Cobra"
+},
+{
+    "id": 46,
+    "sanskrit name": "Bhujapida",
+    "definition": "Pressure on the arm or shoulder"
+},
+{
+    "id": 47,
+    "sanskrit name": "Brahama",
+    "definition": "God. Supreme being. First diety of the Hindu trinity"
+},
+{
+    "id": 48,
+    "sanskrit name": "brahmacharya",
+    "definition": "Celibacy. One of the yamas"
+},
+{
+    "id": 49,
+    "sanskrit name": "Brahman",
+    "description": "infinite conciousness"
+},
+{
+    "id": 50,
+    "sanskrit name": "Buddhi",
+    "definition": "intelligence. seat of intelligence"
+},
+{
+    "id":51,
+    "sanskrit name": "cervical spine",
+    "The vertebrae of the neck"
+},
+{
+    "id": 51,
+    "sanskrit name": "chakra",
+    "definition": "Subtle Energy Center"
+},
+{
+    "id": 52,
+    "sanskrit name": "chandra",
+    "definition": "moon"
+},
+{
+    "id": 53,
+    "sanskrit name": "danda",
+    "definition": "staff or stick"
+},
+{
+    "id": 54,
+    "sanskrit name": "dhanu",
+    "definition": "Bow"
+},
+{
+    "id": 55,
+    "sanskrit name": "dharana",
+    "definition": "Mental Concentration. The sixth limb of Patanjali's Ashtanga yoga"  
+},
+{
+    "id": 56,
+    "sanskrit name": "dharma",
+    "definition": "virtuous duty"
+},
+{
+    "id": 57,
+    "sanskrit name": "dhyana",
+    "definition": "meditation-the seventh limb of yoga"
+},
+{
+    "id": 58,
+    "sanskrit name": "dristana",
+    "definition": "the practice of focusing on a dristi"
+},
+{
+    "id": 59,
+    "sanskrit name": "dristi",
+    "definition":  "a point ahead a yogi gazes upon to improve balance and focus"
+},
+{
+    "id": 60,
+    "sanskrit name": "dukha",
+    "definition": "pain, sorrow or grief"
+}
 ]
