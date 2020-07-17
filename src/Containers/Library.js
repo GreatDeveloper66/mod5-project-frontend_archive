@@ -7,9 +7,22 @@ class Library extends Component {
         width : "100%"
     })
 
+    bannerStyle = () => {
+		return ({
+			
+			backgroundImage: `url(${require(`../images/yoga_meditation.jpg`)})`,
+			/*backgroundColor: '#EAA724',*/
+			backgroundSize: 'cover',
+			backgroundPosition: 'center',
+			backgroundRepeat: 'no-repeat',
+			height: '100vh',
+			width: '100%'
+		})
+  }
+
     render(){
         return(
-            <Fragment>
+            <div style={this.bannerStyle()}>
             <NavBar />
             <Container>
                 <Row>
@@ -63,7 +76,7 @@ class Library extends Component {
                     </Col>
                 </Row>
             </Container>
-            </Fragment>
+            </div>
            
         )
     }
