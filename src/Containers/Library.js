@@ -26,7 +26,7 @@ class Library extends Component {
             <NavBar />
             <Container>
                 <Row>
-                    <Col>
+                    <Col xs={12} sm={6} md={3}>
                         <Card>
                             <CardImg src={require('../images/sanskrit_small.jpg')} style={this.imgStyle()}/>
                             <CardBody>
@@ -42,7 +42,7 @@ class Library extends Component {
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col xs={12} sm={6} md={3}>
                     <Card>
                             <CardImg src={require('../images/yogi_small.jpg')} style={this.imgStyle()}/>
                             <CardBody>
@@ -58,7 +58,23 @@ class Library extends Component {
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col xs={12} sm={6} md={3}>
+                    <Card>
+                            <CardImg src={require('../images/anatomy_small.jpg')} style={this.imgStyle()}/>
+                            <CardBody>
+                                <CardTitle>
+                                    Anatomy
+                                </CardTitle>
+                                <CardSubtitle>
+                                    Dictionary of anatomy terms
+                                </CardSubtitle>
+                                <Button onClick={() => this.props.history.push('/anatomydictionary')}>
+                                    View Library
+                                </Button>
+                            </CardBody>
+                        </Card>
+                    </Col>
+                    <Col xs={12} sm={6} md={3}>
                     <Card>
                             <CardImg src={require('../images/anatomy_small.jpg')} style={this.imgStyle()}/>
                             <CardBody>
