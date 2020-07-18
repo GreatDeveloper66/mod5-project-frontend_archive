@@ -76,7 +76,7 @@ class Library extends Component {
                     </Col>
                     <Col xs={12} sm={6} md={3}>
                     <Card>
-                            <CardImg src={require('../images/anatomy_small.jpg')} style={this.imgStyle()}/>
+                            <CardImg src={require('../images/eightlimbs.jpg')} style={this.imgStyle()}/>
                             <CardBody>
                                 <CardTitle>
                                     Anatomy
