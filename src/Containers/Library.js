@@ -38,7 +38,7 @@ class Library extends Component {
                                     Dictionary of sanskrit terms
                                 </CardSubtitle>
                                 <Button>
-                                    View Library
+                                    Coming Soon...
                                 </Button>
                             </CardBody>
                         </Card>
@@ -54,7 +54,7 @@ class Library extends Component {
                                     Dictionary of asanas
                                 </CardSubtitle>
                                 <Button>
-                                    View Library
+                                    Coming Soon...
                                 </Button>
                             </CardBody>
                         </Card>
@@ -64,13 +64,13 @@ class Library extends Component {
                             <CardImg src={require('../images/anatomy_small.jpg')} style={this.imgStyle()}/>
                             <CardBody>
                                 <CardTitle>
-                                    Anatomy
+                                    Coming Soon...
                                 </CardTitle>
                                 <CardSubtitle>
                                     Dictionary of anatomy terms
                                 </CardSubtitle>
                                 <Button>
-                                    View Library
+                                    Coming Soon...
                                 </Button>
                             </CardBody>
                         </Card>
@@ -86,7 +86,7 @@ class Library extends Component {
                                     Dictionary of anatomy terms
                                 </CardSubtitle>
                                 <Button>
-                                    View Library
+                                    Coming Soon...
                                 </Button>
                             </CardBody>
                         </Card>
