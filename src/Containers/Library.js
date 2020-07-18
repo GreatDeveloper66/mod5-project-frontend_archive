@@ -4,7 +4,8 @@ import { Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, 
 
 class Library extends Component {
     imgStyle = () => ({
-        width : "100%"
+        width : "100%",
+        height: "300px"
     })
 
     bannerStyle = () => {
@@ -36,7 +37,7 @@ class Library extends Component {
                                 <CardSubtitle>
                                     Dictionary of sanskrit terms
                                 </CardSubtitle>
-                                <Button onClick={() => this.props.history.push('/sanskritdictionary')} style={this.imgStyle()} >
+                                <Button onClick={() => this.props.history.push('/sanskritdictionary')} >
                                     View Library
                                 </Button>
                             </CardBody>
