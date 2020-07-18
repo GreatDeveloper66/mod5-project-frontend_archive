@@ -37,7 +37,7 @@ class Library extends Component {
                                 <CardSubtitle>
                                     Dictionary of sanskrit terms
                                 </CardSubtitle>
-                                <Button onClick={() => this.props.history.push('/sanskritdictionary')} >
+                                <Button>
                                     View Library
                                 </Button>
                             </CardBody>
@@ -53,7 +53,7 @@ class Library extends Component {
                                 <CardSubtitle>
                                     Dictionary of asanas
                                 </CardSubtitle>
-                                <Button onClick={() => this.props.history.push('/asanadictionary')}>
+                                <Button>
                                     View Library
                                 </Button>
                             </CardBody>
@@ -69,7 +69,7 @@ class Library extends Component {
                                 <CardSubtitle>
                                     Dictionary of anatomy terms
                                 </CardSubtitle>
-                                <Button onClick={() => this.props.history.push('/anatomydictionary')}>
+                                <Button>
                                     View Library
                                 </Button>
                             </CardBody>
@@ -85,7 +85,7 @@ class Library extends Component {
                                 <CardSubtitle>
                                     Dictionary of anatomy terms
                                 </CardSubtitle>
-                                <Button onClick={() => this.props.history.push('/anatomydictionary')}>
+                                <Button>
                                     View Library
                                 </Button>
                             </CardBody>
