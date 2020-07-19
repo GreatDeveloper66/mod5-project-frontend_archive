@@ -11,7 +11,7 @@ import ViewSequence from './Containers/ViewSequence'
 import YogaWorkoutScreen from './Containers/YogaWorkoutScreen'
 import UnderConstruction from './Containers/UnderConstruction'
 import Library from './Containers/Library'
-import SanskritDictionary from './Components/SanskritDictionary'
+//import SanskritDictionary from './Components/sanskritdictionary'
 import AsanaDictionary from './Components/AsanaDictionary'
 import AnatomyDictionary from './Components/AnatomyDictionary'
 
@@ -37,7 +37,7 @@ class App extends Component {
 		    <Route exact path='/sequences/view' component={ViewSequence} />
 		    <Route exact path='/sequences/presets' component={YogaWorkoutScreen} />
         <Route exact path='/library' component={Library} />
-        <Route exact path='/sanskritdictionary' component={SanskritDictionary} />
+        {/*<Route exact path='/sanskritdictionary' component={SanskritDictionary} />*/}
         <Route exact path='/asanadictionary' component={AsanaDictionary} />
         <Route exact path='/anatomydictionary' component={AnatomyDictionary} />
       </Switch>
