@@ -9,10 +9,12 @@ import NewSequence from './Containers/NewSequence'
 import EditSequence from './Containers/EditSequence'
 import ViewSequence from './Containers/ViewSequence'
 import YogaWorkoutScreen from './Containers/YogaWorkoutScreen'
+import UnderConstruction from './Containers/UnderConstruction'
 import Library from './Containers/Library'
 import SanskritDictionary from './Components/SanskritDictionary'
 import AsanaDictionary from './Components/AsanaDictionary'
 import AnatomyDictionary from './Components/AnatomyDictionary'
+
 
 
 class App extends Component {
@@ -26,7 +28,7 @@ class App extends Component {
 
     <Router>
       <Switch>
-        <Route exact path = '/' component = {SignIn} />
+        <Route exact path = '/' component = {UnderConstruction} />
         <Route exact path = '/profile' component={Profile} />
 		    <Route exact path ='/Register' component={Register} />
         <Route exact path='/home' component={Home} />
