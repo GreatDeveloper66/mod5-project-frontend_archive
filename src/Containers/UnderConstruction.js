@@ -34,7 +34,7 @@ export default class UnderConstruction extends Component {
                             </CardSubtitle>
                         
                         
-                        <a href="#"><Button>Video Demo</Button></a>
+                        <a href="https://youtu.be/f4Gd9dMPfjo" target="_blank"><Button>Video Demo</Button></a>
                        </CardBody>
 
                     </Card>
