@@ -18,6 +18,7 @@ export default class UnderConstruction extends Component {
 
     render(){
         return(
+            <div style = {this.bannerStyle()}>
             <Container className="mt-5">
                 <Row className = "d-flex justify-content-center">
                     <Col xs={12} sm={8} lg={4}>
@@ -41,6 +42,7 @@ export default class UnderConstruction extends Component {
                     
                 </Row>
             </Container>
+            </div>
         )
     }
 }
