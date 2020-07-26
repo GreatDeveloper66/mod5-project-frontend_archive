@@ -14,11 +14,11 @@ import thunkMiddleware from 'redux-thunk'
 // const store = createStore(
 //   RootReducer,
 //   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
-//   applyMiddleware(thunk)
+ //  applyMiddleware(thunk)
 // );
-//const store = createStore(RootReducer, compose(applyMiddleware(thunk),window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()));
+const store = createStore(RootReducer, compose(applyMiddleware(thunk),window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()));
 //const store = createStore(RootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
-const store = createStore(RootReducer, applyMiddleware(thunk))
+//const store = createStore(RootReducer, applyMiddleware(thunk))
 
 ReactDOM.render(
   <Provider store={store}>
