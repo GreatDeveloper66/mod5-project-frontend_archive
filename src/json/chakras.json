@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "sansritName": "Muladhara",
+        "englishName": "Root Chakra",
+        "location": "Base of Spine",
+        "element": "earth",
+        "meaning": "Grounded, Secure, Prosperous, Safety, Foundation"
+
+    },
+    {
+        "id": 2,
+        "sanskritName": "Swadhisthana",
+        "englishName": "Sacral Charkra",
+        "location": "lower abdomen"
+
+    },
+    {
+        "id": 3,
+        "location": "midway between solar plexus and base of sternum"
+    },
+    {
+        "id": 4,
+        "location": "center of chest"
+    },
+    {
+        "id": 5,
+        "location":"throat or base of neck"
+    },
+    {
+        "id": 6,
+        "location": "between eyebrows"
+    },
+    {
+        "id":7,
+        "location": "top of head"
+    }
+]
