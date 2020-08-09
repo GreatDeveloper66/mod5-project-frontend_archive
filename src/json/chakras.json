@@ -12,27 +12,44 @@
         "id": 2,
         "sanskritName": "Swadhisthana",
         "englishName": "Sacral Charkra",
-        "location": "lower abdomen"
+        "location": "lower abdomen",
+        "element": "fire",
+        "meaning": 
 
     },
     {
         "id": 3,
-        "location": "midway between solar plexus and base of sternum"
+        "sanskritName": "Manipura",
+        "englishName": "Solar Plexus Chakra",
+        "location": "midway between solar plexus and base of sternum",
+        "element": "water"
     },
     {
         "id": 4,
-        "location": "center of chest"
+        "sanskritName":"Anahata",
+        "englishName":"Heath Chakra",
+        "location": "center of chest",
+        "element": "air"
     },
     {
         "id": 5,
-        "location":"throat or base of neck"
+        "sanskritName":"Vishuddha",
+        "throat charkra",
+        "location":"throat or base of neck",
+        "element": "ether"
     },
     {
         "id": 6,
-        "location": "between eyebrows"
+        "sanskritName":"Ajna",
+        "englishName": "Third Eye Chakra",
+        "location": "between eyebrows",
+        "element": "light"
     },
     {
         "id":7,
-        "location": "top of head"
+        "sanskritName":"Sahasrara",
+        "englishName":"Crown Chakra",
+        "location": "top of head",
+        "element": "vibrations"
     }
 ]
