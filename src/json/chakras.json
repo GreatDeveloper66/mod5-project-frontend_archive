@@ -32,6 +32,7 @@
         "id": 4,
         "sanskritName":"Anahata",
         "englishName":"Heath Chakra",
+        "color": "green",
         "location": "center of chest",
         "element": "air",
         "meaning": "love, acceptance, compassion"
@@ -39,7 +40,7 @@
     {
         "id": 5,
         "sanskritName":"Vishuddha",
-        "throat charkra",
+        "english name": "throat charkra",
         "location":"throat or base of neck",
         "element": "ether",
         "meaning": "communication, self-expression"
