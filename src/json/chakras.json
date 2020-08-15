@@ -4,7 +4,7 @@
         "sansritName": "Muladhara",
         "englishName": "Root Chakra",
         "location": "Base of Spine",
-        "color": "red"
+        "color": "red",
         "element": "earth",
         "meaning": "Grounded, Secure, Prosperous, Safety, Foundation"
 
@@ -14,6 +14,7 @@
         "sanskritName": "Swadhisthana",
         "englishName": "Sacral Charkra",
         "location": "lower abdomen",
+        "color": "orange",
         "element": "fire",
         "meaning": "Emotions, sensuality,creativity"
 
